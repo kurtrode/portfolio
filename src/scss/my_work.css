@@ -1,0 +1,36 @@
+.my_work {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #232323;
+  height: 250px;
+  margin: auto;
+}
+
+.my_work_1 {
+  display: flex;
+  width: 90%;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.my_work_box {
+  display: flex;
+  width: 20%;
+  background-color: #232323;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.my_work_box > h2 {
+  color: #54be90;
+  text-align: center;
+  margin-bottom: -10px;
+}
+
+.my_work_box > p {
+  color: #ebebeb;
+}/*# sourceMappingURL=my_work.css.map */

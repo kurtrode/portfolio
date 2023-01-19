@@ -1,0 +1,34 @@
+.findme_icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 275px;
+  justify-content: space-around;
+}
+
+.findme_logo_one {
+  display: flex;
+  background-image: url(../img/github.png);
+  background-size: cover;
+  width: 20%;
+  height: 225px;
+}
+
+.findme_logo_two {
+  display: flex;
+  background-image: url(../img/linkedin.svg);
+  background-size: cover;
+  background-color: #ebebeb;
+  width: 20%;
+  height: 225px;
+}
+
+.findme_logo_three {
+  display: flex;
+  background-image: url(../img/instagram.png);
+  background-size: cover;
+  background-color: #ebebeb;
+  width: 20%;
+  height: 225px;
+}/*# sourceMappingURL=findme.css.map */

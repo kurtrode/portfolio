@@ -1,0 +1,76 @@
+.seeyou {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 400px;
+  background-color: #ebebeb;
+  align-items: center;
+}
+
+.seeyou_first {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 150px;
+  width: 80%;
+}
+
+.seeyou_first_line {
+  color: #54be90;
+  width: 25%;
+  height: 5px;
+  margin: auto;
+  border: none;
+}
+
+.seeyou_first_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 3rem;
+  width: 55%;
+  flex-wrap: none;
+}
+
+.seeyou_second {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 40%;
+  height: 150px;
+  align-content: center;
+}
+
+.seeyou_git {
+  display: flex;
+  height: 120px;
+  width: 120px;
+  background-image: url(../img/github.png);
+  background-size: cover;
+}
+
+.seeyou_linkedin {
+  display: flex;
+  height: 100px;
+  width: 100px;
+  background-image: url(../img/linkedin.png);
+  background-size: cover;
+  margin-top: 5px;
+}
+
+.seeyou_instagram {
+  display: flex;
+  height: 120px;
+  width: 120px;
+  background-image: url(../img/instagram.png);
+  background-size: cover;
+}
+
+.seeyou_third {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=seeyou.css.map */
