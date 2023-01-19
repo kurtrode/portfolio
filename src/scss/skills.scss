@@ -12,6 +12,10 @@
     width:70%;
     height: 500px;
     justify-content: center;
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
 }
 .skills_title{
     display: flex;
@@ -44,6 +48,15 @@
     text-align: center;
     justify-content: center;
     font-size: 1.5rem;
+
+    @media (max-width: 950px) {
+        width: 25%;
+    }
+
+    @media (max-width: 768px) {
+        font-size: 1.2rem;
+        width: 30%;
+    }
 }
 .bars_1_b{
     background-color: #54be90;
@@ -148,8 +161,4 @@
     padding-right: 5px;
     background-color: #444444;
     width: 40%;
-}
-
-h1 {
-    color: red !important;
 }
