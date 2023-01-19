@@ -571,34 +571,7 @@ html {
     //     justify-content: left;
     //     align-items: center;
     // }
-    .message{
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        height: 200px;
-        justify-content: left;
-        align-content: left;
-        border-radius: 3%;
-
-    }
-    .messagelabel{
-        width: 91%;
-        color: #ebebeb;
-        font-size: 2rem;
-    }
-    .submit{
-        display: flex;
-        justify-content: center;
-        width: 70%;
-        height: 60px;
-        background-color: #232323;
-        border-radius: 3%;
-        margin: auto;
-        color: #ebebeb;
-        font-weight: bold;
-        font-size: 2rem;
-        border: none;
-    }
+   
     // .tenth_div{
     //     display: flex;
     //     flex-direction: column;
