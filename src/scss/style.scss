@@ -1,3 +1,8 @@
+@import "navbar.scss";
+@import "my_description.scss";
+@import "my_appeal.scss";
+@import "my_work.scss";
+
 html {
 
     box-sizing: border-box;
@@ -25,134 +30,10 @@ html {
         z-index:1;
         width: 80%;
     }
-    .first_div{
-        display: flex;
-        flex-direction: row;
-        background-color: #ffffff;
-        width: 100%;
-        height: 120px;
-        justify-content: center;
-    }
-    .first_div_nav{
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        height: 50px;
-        flex-wrap: nowrap;
-        text-align: center;
-    }
-    .nav_link{
-        background-color: #232323;
-        width: 100%;
-        padding-top: 10px;
-        text-decoration: none;
-        color: #ffffff;
-    }
-    .nav_link.nav_green{
-        background-color: #54be90;
-        color: #232323;
-    }
-    .nav_logo{
-        display:flex;
-        width: 50%;
-        height: 50px;
-        float: left;
-    }
-    .second_div{
-        display: flex;
-        background-image: url("../img/beach.jpg");
-        position: relative;
-        width: 100%;
-        height: 500px;
-        overflow: hidden;
-        color: #ffffff;
-        padding-top: -40px;
-    }
-    .second_div_text{
-        display:flex;
-        align-content: center;
-        width: 100%;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-    }
-    .second_div_name{
-        color: #54be90;
-        text-decoration: underline;
-        background-color: #ffffff;
-    }
-    .second_div_text_1{
-        display: flex;
-        flex-direction: column;
-    }
-    .third_div{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: 200px;
-        background-color:#ebebeb;
-        position: relative;
-    }
-    .third_div_text{
-        display: flex;
-        flex-direction: row;
-        width: 90%;
-        justify-content: center;
-        flex-wrap: wrap;
-        align-items: center;
-        text-align: center;
-        margin: auto;
-        margin-top: 30px;
-    }
-    .third_div_circles{
-        display: flex;
-        flex-direction: row;
-        justify-content:space-around;
-        width:70%;
-        height: 200px;
-        align-items: center;
-        margin: auto;
-    }
-    .third_div_circles_small{
-        display: flex;
-        height: 100px;
-        width: 100px;
-        border-radius: 50%;
-        background-color:#ebebeb;
-        margin-top: 10px;
-    }
-    .fourth_div{
-        display:flex;
-        flex-direction:row;
-        justify-content:space-around;
-        width: 100%;
-        background-color: #232323;
-        height: 250px;
-        margin: auto;
-    }
-    .fourth_div_1{
-        display: flex;
-        width: 90%;
-        flex-direction: row;
-        justify-content:center;
-    }
-    .fourth_div_box{
-        display:flex;
-        width: 20%;
-        background-color: #232323;
-        flex-wrap: wrap;
-        text-align: center;
-        justify-content: center;
-        padding-top: 20px;
-    }
-    .fourth_div_box > h2{
-        color: #54be90;
-        text-align: center;
-        margin-bottom: -10px;
-    }
-    .fourth_div_box > p{
-        color: #ebebeb;
-    }
+    
+    
+   
+    
     .fifth_div{
         display: flex;
         width: 100%;
