@@ -1,5 +1,6 @@
 .my_description{
     display: flex;
+    flex-direction: column;
     background-image: url("../img/beach.jpg");
     position: relative;
     width: 100%;
@@ -7,6 +8,7 @@
     overflow: hidden;
     color: #ffffff;
     padding-top: -40px;
+    justify-content: center;
 }
 .my_description_text{
     display:flex;

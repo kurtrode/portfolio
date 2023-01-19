@@ -4,7 +4,7 @@
   width: 100%;
   height: 200px;
   background-color: #ebebeb;
-  position: relative;
+  justify-content: space-between;
 }
 
 .my_appeal_text {
@@ -13,10 +13,8 @@
   width: 90%;
   justify-content: center;
   flex-wrap: wrap;
-  align-items: center;
-  text-align: center;
-  margin: auto;
-  margin-top: 30px;
+  padding-top: -25px;
+  max-height: 200px;
 }
 
 .my_appeal_circles {
@@ -27,6 +25,7 @@
   height: 200px;
   align-items: center;
   margin: auto;
+  z-index: 1;
 }
 
 .my_appeal_circles_small {
@@ -35,5 +34,11 @@
   width: 100px;
   border-radius: 50%;
   background-color: #ebebeb;
-  margin-top: 10px;
+  margin-top: -15px;
+}
+
+@media (max-width: 800px) {
+  .my_appeal_circles {
+    visibility: hidden;
+  }
 }/*# sourceMappingURL=my_appeal.css.map */
